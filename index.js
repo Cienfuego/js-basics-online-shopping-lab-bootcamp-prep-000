@@ -59,7 +59,7 @@ function removeFromCart(item){
     }//else if(arrNam.includes(item) === false){
       
   //}
-  } console.log('That item is not in your cart.');
+  } return 'That item is not in your cart.';
 }
 
 function placeOrder(cardNumber) {
